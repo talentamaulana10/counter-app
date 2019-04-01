@@ -35,6 +35,6 @@ export default class Counter extends Component {
 
   formatCount() {
     const { count } = this.state;
-    return count === 0 ? "press button to add value" : count;
+    return count === 0 ? "Zero" : count;
   }
 }
